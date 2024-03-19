@@ -1,47 +1,114 @@
 body {
     display:flex;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+    
 }
 
-.header {
+ .header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
+    margin-bottom: 90px;
+    
+    
+} 
 
-.header ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap:8px;
-    list-style: none;
-}
-
-.header a{
-    text-decoration: none;
-    color: #F9FAF8;
-    font-size: 24px;
-}
-
-.header, .main, .footer{
+.hero, .footer{
     background-color: #1F2937;
 }
 
-.main h1{
-    font-size: 48x;
-    font-weight:800;
-    color:#F9FAf8;
+.header ul{
+    display: flex;
+    margin: 0; 
+    padding:0;
+    list-style-type: none; 
+    gap:15px;
+    font-size: 24px;
 }
-
-.main p{
-    font-size: 16px;
+.hero a, .hero p, button{
+    font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
+    
 }
 
-button {
-    background-color: #3882F6;
-    color:white;
-    border-radius: 5px;
-    border: 0px;
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    
+}
+
+
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+.hero-text {
+    max-width: 500px;
+}
+.sec2 h2 {
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    color: #1F2937;
+}
+
+.sec2 ul {
+    display: flex; 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
 
 }
+
+.sec2 img {
+    border-radius: 5%;
+}
+
+button { 
+    border-radius: 5%;
+    background-color: #3882f6;
+    border: none;
+    
+}
+.sec3  {
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+}
+.sec3 p {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 837px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+   
+}
+.quote h4{
+    align-self: flex-end;
+    margin-top: 0;
+}
+
