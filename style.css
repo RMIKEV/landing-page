@@ -8,8 +8,9 @@ body {
     
 }
 
- .header {
+ .header{
     display: flex;
+    flex:1;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 90px;
@@ -29,7 +30,7 @@ body {
     gap:15px;
     font-size: 24px;
 }
-.hero a, .hero p, button{
+.hero a, .hero p, button, .footer{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -54,6 +55,7 @@ h1 {
 .hero-text {
     max-width: 500px;
 }
+
 .sec2 h2 {
     display: flex;
     font-size: 36px;
@@ -112,3 +114,32 @@ button {
     margin-top: 0;
 }
 
+.sec4 {
+    display: flex;
+    margin:40px;
+    min-width: 837px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.call-action {
+    display: flex;
+    flex-direction: column;
+
+}
+.sec4 button {
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
